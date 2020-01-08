@@ -1,23 +1,22 @@
 package noob.babysteps;
 
 public class EpicInvestment {
-public static void main (String [] arguments) {
-float fah=69;
-System.out.println (fah+ "your investment");
-fah = fah - 32;
+    public static void main(final String[] arguments) {
+        float investments = 14000;
+        System.out.println(investments + "your investment");
+        investments = (float) (investments * (1.0 + 40.0 / 100.0));
+        System.out.println("your investment after first year: " + investments);
 
-fah = fah / 9;
+        System.out.println("reminder: " + (40 % 100));
+        investments = investments - 1500;
+        System.out.println("your investment after second year: " + investments);
+        investments = (float) (investments * (1.0 + 12.0 / 100.0));
+        System.out.println("your investment after third year: " + investments);
 
-fah = fah * 5;
-System.out.println(fah + "outcome of investment\n");
 
-float delsPickles = 33;
-System.out.print(delsPickles + "Your outcome is complete, your investment is...");
 
-delsPickles = delsPickles *9;
-delsPickles = delsPickles /5;
-delsPickles = delsPickles +32;
-System.out.print(delsPickles + "your investment");
+        System.out.println("reminder: " + (40 % 100));
+        System.out.println("reminder: " + (400 % 100));
 
+    }
 }
- }
